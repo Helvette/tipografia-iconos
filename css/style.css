@@ -1,0 +1,86 @@
+
+#contenedor {
+	text-align: center;
+	display: table;  /*sirve para centrar muchos elementos flotantes*/
+	margin: auto; /* que queremos estén alineados, dentro de un div */
+}
+
+/* descartada:
+display: flex;
+justify-content: center;*/
+
+h1, hr {
+	font-family: "Roboto Slab", serif;
+	color: #6E6E74;
+	margin-left: 20px;
+	margin-right: 20px;
+}
+
+.subMenu {
+	background-color: #F5F5F5;
+	color: #6E6E74;
+	width: 200px;
+	height: 300px;
+	float: left;
+	margin-top: 20px;
+	margin-right: 5px;
+	box-shadow: 2px 2px 1px #DDDDDD;
+}
+
+.subMenu:hover {
+	background-color: #FEFEFE;
+	color: #B1AFE8;
+	transform: scale(1.17, 1.13);
+	cursor: pointer;
+}
+
+
+h2 {
+	font-size: 20px;
+	font-family: "Roboto Slab", serif;
+}
+
+h5 {
+	position: relative;
+	top: 13px;
+}
+
+h5:hover{
+	font-style: italic;
+	color: #6E6E74;
+}
+
+p {
+	font-family: "Ubuntu", sans-serif;
+	font-size: smaller;
+	margin-left: 10px;
+	margin-right: 10px;
+}
+
+.fa {
+	font-size: 50px;
+	margin: 20px;
+}
+
+h4 {
+	position: relative;
+	clear: both;
+	text-align: right;
+	margin-right: 10%;
+	top: 30px;
+	color: #6E6E74;
+}
+
+a:link {
+	text-decoration: none;
+	color: #5E5E63;
+}
+
+a:hover {
+	color: #B1AFE8;
+	font-style: italic;
+}
+
+a:visited {
+	color: #B1AFE8;
+}
